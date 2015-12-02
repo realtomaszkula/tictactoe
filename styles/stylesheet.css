@@ -7,20 +7,23 @@
 
 #mid{
 	margin: 50px auto;
-	width: 454px;
-	height: 454px;
-	font-size: 0;
+	width: 460px;
+	height: 460px;
+
 }
 
 .midRow, .botRow, .topRow{
-	width: 454px;
+	width: 470px;
 }
 
 .first, .second, .third {
 	width: 150px;
-	height: 150px;
-	background-color: white; 
+	height: 125px; 
+	padding-top: 25px;
 	display: inline-block;
+	font: 80px black Arial;
+	text-align: center;
+
 }
 
 .first, .second{
@@ -30,3 +33,4 @@
 .midRow, .topRow{
 	border-bottom: 2px solid black;
 }
+
